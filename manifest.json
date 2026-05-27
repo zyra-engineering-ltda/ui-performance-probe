@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Frontend Performance Probe",
+  "version": "1.0.0",
+  "description": "A Lightweight browser extension for detecting frontend performance bottlenecks, slow JavaScript execution, and UI interactions causing lag.",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["inject.js"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ]
+}
