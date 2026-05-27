@@ -239,6 +239,27 @@ window.__resourceTiming(10);
 // Shows top 10 slowest resources
 ```
 
+## Screenshots
+
+Below are example screenshots from the probe UI and console output (click to expand):
+
+- Screenshot 1
+  
+  ![Screenshot 1](static/img/1.png)
+
+- Screenshot 2
+  
+  ![Screenshot 2](static/img/2.png)
+
+- Screenshot 3
+  
+  ![Screenshot 3](static/img/3.png)
+
+- Screenshot 4
+  
+  ![Screenshot 4](static/img/4.png)
+
+
 ## Known Limitations
 
 - **Requires jQuery** on the target page. If jQuery is not detected within 30 seconds, the probe gives up silently and does not interfere with the page.
