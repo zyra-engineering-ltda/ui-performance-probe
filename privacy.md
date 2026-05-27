@@ -6,13 +6,13 @@ UI Performance Probe is a browser extension designed to help developers identify
 
 ## Data Collection
 
-UI Performance Probe does not collect, store, transmit, sell, or share personal information or user data.
+UI Performance Probe does not collect, store, transmit, sell, or share any personal information, browsing history, analytics data, or user content.
 
-The extension operates locally within the user’s browser and generates performance diagnostics directly in the browser console.
+All diagnostics and performance analysis run locally within the user’s browser.
 
-## Information Processed
+## Information Processing
 
-While active on a webpage, the extension may temporarily observe:
+The extension temporarily analyzes frontend performance activity directly on the current webpage, including:
 
 * JavaScript execution timing
 * DOM mutations
@@ -21,29 +21,25 @@ While active on a webpage, the extension may temporarily observe:
 * Navigation timing information
 * Event handler execution duration
 
-This information is processed locally and is not transmitted to any external server.
+This information remains local to the browser session and is never transmitted externally.
 
 ## Data Sharing
 
 UI Performance Probe does not:
 
-* sell user data
-* transfer user data to third parties
+* collect user accounts or credentials
 * use analytics or tracking services
+* sell or transfer user data
+* send data to external servers
 * use advertising technologies
-* collect browsing history for external use
 
 ## Remote Code
 
 UI Performance Probe does not load or execute remote code. All extension code is packaged locally within the extension bundle.
 
-## Security
-
-Because the extension does not transmit or store user data externally, no personal information is retained by the developer.
-
 ## Changes to This Policy
 
-This privacy policy may be updated in future versions of the extension. Updates will be reflected through the Chrome Web Store listing.
+This privacy policy may be updated in future versions of the extension.
 
 ## Contact
 
