@@ -6,7 +6,7 @@
   "icons": {
     "16": "static/img/favicon-16x16.png",
     "48": "static/img/android-icon-48x48.png",
-    "128": "static/img/apple-icon-180.png"
+    "128": "static/img/apple-icon-180x180.png"
   },
   "content_scripts": [
     {
